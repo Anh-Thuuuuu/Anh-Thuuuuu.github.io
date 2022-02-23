@@ -1,0 +1,166 @@
+.column{
+    width: 20%;
+    float: left;
+}
+.tui{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(24, 21, 21);
+    padding: 10 px;
+    margin: 5px;
+    text-align: center;
+}
+.tui .ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: rgb(224, 98, 119);
+}
+.tui .img{
+    max-width: 95%;
+}
+.tui .gia{
+    color: rgb(10, 80, 65);
+    font-weight: bold;
+    font-size: larger;
+}
+.tui .gia del{
+    color: rgb(51, 18, 197);
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(15, 15, 15);
+    text-shadow:10px 0 5px rgb(85, 157, 224);
+    text-align:center;
+}
+.anh{
+    width: 200px;
+    height: 200px;
+}
+.anh:hover{
+    transform:scale(1.2);
+}
+.images{
+    width: 100%;
+    height: 70%;
+}
+.header{
+    height: 400px;
+    width: 100%;
+}
+.container{
+    Position:relative;
+}
+.top-right{
+   Position:absolute;
+   Top:0px;
+   Right:10px;
+   Border-bottom-left-radius: 30px;
+   box-shadow: 20px 0 25px rgb(122, 161, 219);
+   padding-left: 50px;
+   background-color: rgb(70, 238, 182);
+   height: 30px;
+}
+.company-info{
+    position: absolute;
+    left: 15px ;
+    bottom: 30px;
+}
+.company-info h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-shadow: 0 0 5px rgb(247, 242, 241);
+    border-bottom: 2px rgb(7, 7, 6) solid;
+}
+.company-info p{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(69, 235, 111);
+    font-weight: bolder;
+    padding-top: 5px;
+    text-shadow: 0 0 5px #000;
+}
+.hoctap:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.text{
+    color: rgb(15, 15, 15);
+    text-decoration-color: rgb(10, 10, 10);
+    font-variant: small-caps;
+}
+.text:hover{
+    background-color: rgb(247, 74, 140);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(182, 238, 175);
+}
+.top{
+    overflow: hidden;
+    background-color: rgb(41, 124, 75);
+}
+/* Định dạng link điều hướng*/
+.top a{
+    float: left;
+    display: block;
+    color:rgb(12, 11, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Thay đổi màu liên kiết khi di chuột qua*/
+.top a:hover{
+    background-color: rgb(45, 148, 62);
+    color: rgb(55, 175, 223);
+}
+.header{
+    background:rgb(156, 18, 18) ;
+    color: #0b0c0c;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+}
+.header h1{font-size: 40px;}
+.header p{
+        font-size: 20px;
+    }
+.banner{
+    height:300px;
+    width: 100%;
+    }
+.images{
+    height:300px ;
+    width: 75%;
+    float: left;
+    }
+.id{
+    height:300px ;
+    width: 25%;
+    right: right;
+}
+.footer{
+    padding: 10px;
+    background-image: url('/images/footer3.jpg');
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+}
+.footer1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: aliceblue;
+    float:left;
+    width:40%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.footer2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+    width:40%;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: aliceblue;
+}

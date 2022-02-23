@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    padding: 10px;
+    background: white;
+}
+/*Header/Blog title*/
+.top{
+    overflow: hidden;
+    background-color: rgb(41, 124, 75);
+}
+/* Định dạng link điều hướng*/
+.top a{
+    float: left;
+    display: block;
+    color:rgb(12, 11, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Thay đổi màu liên kiết khi di chuột qua*/
+.top a:hover{
+    background-color: rgb(45, 148, 62);
+    color: rgb(55, 175, 223);
+}
+.header{
+    background:rgb(156, 18, 18) ;
+    color: #0b0c0c;
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+}
+.header h1{font-size: 40px;}
+.header p{
+        font-size: 20px;
+    }
+.banner{
+    height:300px;
+    width: 100%;
+    }
+.anh{
+    height:300px ;
+    width: 75%;
+    float: left;
+    }
+.id{
+    height:300px ;
+    width: 25%;
+    right: right;
+}
+.rightcolumn{
+    float: left;
+    width: 75%;
+}
+/*Cột phải*/
+.leftcolumn{
+    float: right;
+    width: 25%;
+    background-color:rgb(253, 255, 255);
+    padding-right: 10px;
+}
+/* Hình ảnh bài viết*/
+.images{
+    width: 100%;
+    height: 150px;
+}
+/* Thêm định dạng thẻ cho bài viết*/
+.card-news{
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+/* clear float khác nhau sau các cột*/
+.row:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+/*Thêm định dạng thẻ nội dung thêm*/
+.card{
+    background-color: floralwhite;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-news a:hover{
+    width: 50%;
+    height: 50%;
+    padding: 0px;
+    margin: 5px;
+    transition: 0.3s;
+    border-radius: 5px 10px 15px 20px;
+    background-color: white;
+}
+.images:hover{opacity:0.2;}
+.content{
+    text-align:center;
+    float:left;
+    font:larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    padding: 10px;
+    background-image: url('/images/footer3.jpg');
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+}
+.footer1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: aliceblue;
+    float:left;
+    width:40%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.footer2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    float:right;
+    width:40%;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: aliceblue;
+}
